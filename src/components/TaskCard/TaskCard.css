@@ -1,0 +1,70 @@
+.task-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 18px rgba(0,0,0,.08);
+  transition: .3s;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+}
+
+.task-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pending {
+  background: #f59e0b;
+}
+
+.completed {
+  background: #22c55e;
+}
+
+.description {
+  margin: 15px 0;
+  color: #555;
+}
+
+.date {
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #2563eb;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
+
+.complete-btn {
+  background: #22c55e;
+}

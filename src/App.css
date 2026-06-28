@@ -1,0 +1,34 @@
+body {
+  background: #f4f4f4;
+}
+
+.dashboard {
+  width: 95%;
+  max-width: 1400px;
+  margin: 35px auto;
+
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 30px;
+
+  align-items: start;
+}
+
+.left-panel {
+  position: sticky;
+  top: 30px;
+}
+
+.right-panel {
+  min-height: 600px;
+}
+
+@media (max-width: 900px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .left-panel {
+    position: static;
+  }
+}
